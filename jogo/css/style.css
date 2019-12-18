@@ -1,0 +1,60 @@
+html {
+	height: auto;
+	width: 100%;
+}
+body{
+	background-image: url('../image/background.jpg');
+	 background-repeat: repeat-y;
+	background-size: cover;
+	background-position: top;
+	background-color: #990055;
+	height: auto;
+	width: 100%;
+}
+
+#container {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+}
+
+.spaceship{
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	bottom: 5%;
+	left: 45%;
+
+}
+
+.spaceship img{
+	width: 100%;
+	height: auto;
+}
+
+.enimy{
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	top: 15%;
+	left: 45%;
+}
+
+.enimy img{
+	width: 100%;
+	height: auto;
+}
+
+.boss{
+	width: 90px;
+	height: 80px;
+	position: absolute;
+	top: 5%;
+	left: 30%;
+
+}
+
+.boss img{
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menu Apple</title>
+	<style type="text/css">
+		html {
+			height: 100%;
+		}
+		body {
+			height: 100%;
+			margin:0;
+			
+		}
+		.placar {
+			width: 150px;
+			height: 120px;
+			position: fixed;
+			left: 0;
+			top:0;
+			background-color: #eee;
+			text-align: center;
+		}
+
+		#placar {
+			font-size: 50px;
+		}
+
+		.bola {
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			position: absolute;
+
+		}
+	</style>
+</head>
+<body>
+
+<div class="placar">
+	Bolas Estouradas:<br>
+	<span id="placar">0</span><br>
+	<button id="comecar">Começar o Jogo</button>
+</div>
+
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
